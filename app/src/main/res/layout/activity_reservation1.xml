@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reservation1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:id="@+id/roundedImageView"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/corners"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hotel_five" />
+
+        <!-- زر الرجوع -->
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/round_arrow_back_ios_24" />
+
+        <!-- زر المفضلة -->
+        <!-- اسم الفندق -->
+        <ImageButton
+            android:id="@+id/favoriteButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="28dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            android:src="@drawable/baseline_favorite_border_24" />
+
+        <TextView
+            android:id="@+id/resortName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="250dp"
+            android:text="Amanjena Resort"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- الموقع -->
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/resortName"
+            android:layout_marginStart="16dp"
+            android:text="Marrakech, Morocco"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+        <!-- الوصف -->
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@id/location"
+            android:layout_margin="10dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressTint="#FFEB3B"
+            android:rating="4"
+            android:scaleX="0.50"
+            android:scaleY="0.50"
+            />
+
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratingBar"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="50dp"
+            android:text="Inspirés des bâtiments aux teintes roses du vieux Marrakech, le palais de l'Amanjena, ses jardins et ses majestueux espaces se situent tout près de la légendaire ville rouge. Des cours ombragées ornées de fontaines mènent au bassin central, bordé de spacieux Pavillons et Maisons indépendants Read More..."
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <!-- السعر -->
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="3000 MAD"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- زر المتابعة -->
+        <Button
+            android:id="@+id/continueButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/black"
+            android:text="Continue"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

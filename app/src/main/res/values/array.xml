@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="country_codes">
+        <item>Morocco (+212)</item>
+        <item>France (+33)</item>
+        <item>United States (+1)</item>
+        <item>Spain (+34)</item>
+        <item>Germany (+49)</item>
+    </string-array>
+    <string-array name="room_categories">
+        <item>Single Room</item>
+        <item>Double Room</item>
+        <item>Suite</item>
+        <item>Deluxe Room</item>
+    </string-array>
+</resources>

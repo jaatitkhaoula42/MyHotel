@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inscription4">
+    <LinearLayout
+        android:id="@+id/insclin1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/hotel7"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/insclin2"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginTop="280dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="422dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingLeft="90sp"
+                android:text="MyHotel"
+                android:textColor="@color/black"
+                android:textSize="45dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Plan , Reserve , Enjoy"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal" >
+
+                <Spinner
+                    android:id="@+id/country_code"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/country_codes"
+                    android:layout_marginEnd="8dp"
+                    />
+
+                <EditText
+                    android:id="@+id/phone_number"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@android:drawable/edit_text"
+                    android:hint="Phone Number"
+                    android:inputType="phone"
+                    android:layout_gravity="center"
+                    android:padding="8dp" />
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/otpbtn"
+                android:layout_width="290dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:text="send OTP"
+                android:textSize="18dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:text="____________________OR____________________" />
+
+            <LinearLayout
+                android:id="@+id/applebtn"
+                android:layout_width="400dp"
+                android:layout_height="55dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="65dp"
+                    android:src="@drawable/appple" />
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="55dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingTop="15dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="Continue With Apple"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+
+                >
+
+                <LinearLayout
+                    android:id="@+id/facebtn"
+                    android:layout_width="150dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="55dp"
+                        android:padding="6dp"
+                        android:src="@drawable/face" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="55dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingTop="15dp"
+                        android:paddingLeft="5dp"
+                        android:text="Facebook"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/googlebtn"
+                    android:layout_width="150dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="28dp"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/google" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="55dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingTop="15dp"
+                        android:paddingLeft="5dp"
+                        android:text="Google"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
