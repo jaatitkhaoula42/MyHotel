@@ -45,11 +45,8 @@
 ## 🛠️ The Engine Under the Hood
 Designed for speed, security, and scalability.
 
-* **Frontend:** React Native / Flutter 📱
-* **Backend:** Node.js / Firebase 🔥
-* **Database:** MongoDB / PostgreSQL 🗄️
-* **Maps API:** Google Maps / Mapbox 📍
-
+* **Frontend:**  Kotlin 📱
+* **Backend:** Rest API / Firebase 🔥
 ---
 
 ## 📝 Getting Started
