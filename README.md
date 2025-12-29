@@ -1,6 +1,5 @@
 # 🏨 MyHotel: The Gateway to Morocco 🇲🇦
 
-[![GitHub stars](https://img.shields.io/github/stars/MabroumChaymae/MyHotel?style=flat-square)](https://github.com/MabroumChaymae/MyHotel/stargazers)
 [![Platform](https://img.shields.io/badge/platform-Mobile-orange?style=flat-square)](#)
 [![Experience](https://img.shields.io/badge/Experience-Authentic-green?style=flat-square)](#)
 
@@ -48,24 +47,6 @@ Designed for speed, security, and scalability.
 * **Frontend:**  Kotlin 📱
 * **Backend:** Rest API / Firebase 🔥
 ---
-
-## 📝 Getting Started
-
-Ready to explore? Follow these steps:
-
-1.  **Clone the Magic:**
-    ```bash
-    git clone [https://github.com/MabroumChaymae/MyHotel.git](https://github.com/MabroumChaymae/MyHotel.git)
-    ```
-2.  **Gather Ingredients:**
-    ```bash
-    npm install
-    ```
-3.  **Launch the App:**
-    ```bash
-    npm start
-    ```
-
 ---
 
 <p align="center">Made with ❤️ for Morocco</p>
